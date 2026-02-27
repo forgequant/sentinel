@@ -1,0 +1,29 @@
+{
+  "name": "sentinel",
+  "description": "Core sentiment stack for crypto trading — Fear & Greed, news scanning, social intelligence, prediction markets.",
+  "version": "0.1.0",
+  "author": {
+    "name": "forgequant"
+  },
+  "homepage": "https://github.com/forgequant/sentinel",
+  "repository": "https://github.com/forgequant/sentinel",
+  "license": "MIT",
+  "keywords": ["trading", "sentiment", "crypto", "fear-greed", "news", "social", "prediction-markets"],
+  "risk_level": "low",
+  "permissions": ["network"],
+  "api_keys": {
+    "required": [],
+    "optional": [
+      {
+        "name": "CRYPTOPANIC_API_KEY",
+        "description": "CryptoPanic API key for extended news access",
+        "skill": "news-scanner"
+      },
+      {
+        "name": "LUNARCRUSH_API_KEY",
+        "description": "LunarCrush API key (paid subscription) for social intelligence",
+        "skill": "lunarcrush"
+      }
+    ]
+  }
+}
