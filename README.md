@@ -15,7 +15,8 @@ Core sentiment stack for crypto trading. Part of the [Crucible](https://github.c
 
 ```bash
 # Install as Claude Code plugin
-claude plugin add forgequant/sentinel
+claude plugin marketplace add forgequant/crucible   # once
+claude plugin install sentinel@crucible
 
 # Use in conversation
 > "What's the current fear and greed index?"
