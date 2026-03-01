@@ -10,6 +10,15 @@ Version: 0.1.0 | Author: forgequant | License: MIT
 
 Sentinel is a Claude Code plugin that aggregates crypto market sentiment from four independent data sources into structured `signal/v1` signals. It is designed to give traders a multi-dimensional read on market psychology without requiring any API keys to start.
 
+## Install
+
+<!-- INSTALL:START — auto-synced from emporium/INSTALL_REFERENCE.md -->
+```bash
+claude plugin marketplace add heurema/emporium
+claude plugin install sentinel@emporium
+```
+<!-- INSTALL:END -->
+
 ## Quick Start
 
 Ask Claude about sentiment — skills trigger automatically:
