@@ -9,9 +9,6 @@
   "repository": "https://github.com/forgequant/sentinel",
   "license": "MIT",
   "keywords": ["trading", "sentiment", "crypto", "fear-greed", "news", "social", "prediction-markets"],
-  "status": "active",
-  "owner": "forgequant",
-  "tags": ["trading", "sentiment", "social"],
   "risk_level": "low",
   "permissions": ["network"],
   "api_keys": {
