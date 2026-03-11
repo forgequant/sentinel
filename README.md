@@ -117,9 +117,9 @@ Sentinel makes network calls to external APIs on every invocation. The table bel
 | Command | Host | What is sent | Notes |
 |---------|------|-------------|-------|
 | `/feargreed` | api.alternative.me | No user data | Public endpoint, no auth |
-| `/news-scanner` | cryptopanic.com | CRYPTOPANIC_API_KEY if set | RSS feeds: coindesk.com, cointelegraph.com |
+| `/news-scanner` | cryptopanic.com | Key if set | CoinDesk, CoinTelegraph RSS |
 | `/polymarket` | gamma-api.polymarket.com | No user data | Unofficial public API |
-| `/lunarcrush` | lunarcrush.com | LUNARCRUSH_API_KEY | Paid API; subject to LunarCrush privacy policy |
+| `/lunarcrush` | lunarcrush.com | LUNARCRUSH_API_KEY | Paid; LunarCrush ToS apply |
 
 No data is stored or forwarded beyond the originating API call. Signal output remains local to your Claude session.
 
